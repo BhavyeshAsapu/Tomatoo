@@ -1,0 +1,25 @@
+# === Backend (Spring Boot / Java) ===
+/backend/target/
+*.class
+*.log
+*.jar
+*.war
+
+# === Frontend (React or other JS) ===
+/frontend/node_modules/
+/frontend/build/
+/frontend/dist/
+
+# === Admin Dashboard ===
+/admin/node_modules/
+/admin/build/
+/admin/dist/
+
+# === IDE and OS files ===
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+.env
+/backend/.env
